@@ -10,68 +10,68 @@
 
 <body>
 
-  <!-- Navbar (sit on top) -->
-  <div class="w3-top">
-    <div class="w3-bar" id="myNavbar">
-      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars w3-black"></i>
-    </a>
-      <a href="#home" class="w3-bar-item w3-button w3-black">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-user"></i> ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-th"></i> PORTFOLIO</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-envelope"></i> CONTACT</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-        <!--<i class="fa fa-search"></i>-->
-      </a>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars w3-black"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button w3-black">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <!--<i class="fa fa-search"></i>-->
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
     </div>
 
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-      <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-blue w3-xlarge w3-animate-opacity" style="font-family: Playfair Display, serif; font-size: 24px;">Kane Corp.</span>
+        </div>
     </div>
-  </div>
 
-  <!-- First Parallax Image with Logo Text -->
-  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-    <div class="w3-display-middle" style="white-space:nowrap;">
-      <span class="w3-center w3-padding-large w3-blue w3-xlarge w3-animate-opacity" style="font-family: Playfair Display, serif; font-size: 24px;">Kane Boyer</span>
-    </div>
-  </div>
-
-  <!-- Container (About Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="about">
-    <h3 class="w3-center">ABOUT ME</h3>
-    <p class="w3-center"><em>I am an Applied Computer Science major.</em></p>
-    <p>I am an Applied Computer Science major at Woodbury University. I spent my first two years at Woodbury doing animation and decided to make a change by moving into the ACS Department. I immediately enjoyed the work more than in animation and I hope that it shows in some of my projects. So far I have worked with progams such as Unity, Touch designer and many Adobe programs. Something that has become recently very new to work with to me is Virtual Reality and I am gaining growing interest in the technology. Below are some projects I have done for my classes. Enjoy!</p>
-    <!--    <div class="w3-row">
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center"><em>I am an Applied Computer Science major.</em></p>
+        <p>I am an Applied Computer Science major at Woodbury University. I spent my first two years at Woodbury doing animation and decided to make a change by moving into the ACS Department. I immediately enjoyed the work more than in animation and I hope that it shows in some of my projects. So far I have worked with progams such as Unity, Touch designer and many Adobe programs. Something that has become recently very new to work with to me is Virtual Reality and I am gaining growing interest in the technology. Below are some projects I have done for my classes. Enjoy!</p>
+        <!--    <div class="w3-row">
       <div class="w3-col m6 w3-center w3-padding-large">
         <p><b><i class="fa fa-user w3-margin-right"></i>Kane Boyer</b></p><br>
         <img src="http://www.solutions-online.co.nz/Portals/0/SiteImages/HomeBanner/Web_1920x1080.jpg?ver=2017-08-21-101807-523" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
       </div> -->
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+        </div>
     </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im learning and interested in:</p>
-  <p class="w3-wide w3-large"><i class="fa fa-steam-square"></i>Virtual Reality</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide w3-large"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide w3-large"><i class="fa fa-magic"></i>Touch Designer</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  </div>
+    <p class="w3-large w3-center w3-padding-16">Im learning and interested in:</p>
+    <p class="w3-wide w3-large"><i class="fa fa-steam-square"></i>Virtual Reality</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide w3-large"><i class="fa fa-laptop"></i>Web Design</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+    </div>
+    <p class="w3-wide w3-large"><i class="fa fa-magic"></i>Touch Designer</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+    </div>
+    </div>
 
-  <!--  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <!--  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
     <div class="w3-quarter w3-section">
       <span class="w3-xlarge">14+</span><br> Partners
     </div>
@@ -86,52 +86,52 @@
     </div>
   </div> -->
 
-  <!-- Second Parallax Image with Portfolio Text -->
-  <div class="bgimg-2 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle">
-      <span class="w3-xxlarge w3-text-black w3-wide">PORTFOLIO</span>
-    </div>
-  </div>
-
-  <!-- Container (Portfolio Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">MY PROJECTS</h3>
-    <p class="w3-center"><em>Here are some of my recent projects for class.<br> Click on the images to see them bigger.</em></p><br>
-
-    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-      <div class="w3-col m3">
-        <img src="Api%20Project.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
-        <p class="w3-center w3-large">This was my DATA Visualisation Project. I created this using an API that tracks crypo currency values and created animated bars using P5js.The values are color coded green being high value and red being low value. View the actual project <a href="https://boyerk.github.io/API/">here.</a></p><br>
-      </div>
-      <div class="w3-col m3">
-        <img src="twitterbotpic.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
-        <p class="w3-center w3-large">This was my Twitter Bot Project. This twitter bot runs on an Amazon EC2 server. The bot will send a happy message every hour saying something excitingly happy, however, there is a 2% chance he will say something about how he hates life. View the bot's twitter account <a href="https://twitter.com/GoodestHappyBot">here.</a></p><br>
-      </div>
-
-      <div class="w3-col m3">
-        <img src="alexaskillpic.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
-        <p class="w3-center w3-large">The next project here is my Amazon Alexa Skill. This Alexa skill was made with Amazon Web Services. The skill I created is a quick poker guide. Alexa will give you quick detailed explenation of what cards will win in a game of poker. I also took this project further for my final and published it with Amazon so that it can be used off of any Alexa device.</p><br>
-      </div>
-
-      <div class="w3-col m3">
-        <img src="vimcheetsheet.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
-        <p class="w3-center w3-large"> For this project we were asked to view some sort of language or framework and create a basic descriptive, cheat sheet that we could all share with each other if we ever needed to use that language/framework in the future. The framwork I chose was VIM. VIM is a text editor and plug in that uses shortcuts and modes to allow you to code in a very fast and efficient way without even using a mouse. You can take a look at the cheat sheet <a href="https://github.com/boyerk/Cheatsheet/blob/master/Vim%20Cheat%20Sheet.md">here.</a></p><br>
-      </div>
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-black w3-wide">PORTFOLIO</span>
+        </div>
     </div>
 
-    <div class="w3-row-padding w3-center w3-section">
-      <div class="w3-col m3">
-        <img src="publishedAlexa.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
-        <p class="w3-center w3-large">So for my final project my Alexa skill that I created is going to be published. Amazon is currently reviewing the skill. My skill was denied the first time because Amazon is very unclear when it comes to publishing the skill and there are many rules that must be followed for the skill that are not stated, such at "The skill may not contain certain words." This was something that was not stated in the beginning but only after my first submission was rejected. I have resubmitted the skill and soon hope that Amazon will publish this so that it could be used on every Alexa.</p><br>
-      </div>
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">MY PROJECTS</h3>
+        <p class="w3-center"><em>Here are some of my recent projects for class.<br> Click on the images to see them bigger.</em></p><br>
 
-      <div class="w3-col m3">
-        <img src="unityscreen.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
-        <p class="w3-center w3-large"> This project was my final project for my virtual reality class. I had made a simple basketball Virtual Reality game in Unity. For my final specifically I added three different types of balls that you could shoot as well as 4 different hoops. Each hoop will trigger a unique sound and moves at a unique rate. The different types of basketballs also have unique charactersitcs, such as the red ball is very heavy and the light orange one is very light. Some of the difficulties I ran into during making this game was creating an effecient switching mechanic for the balls. There was also a problem with them when they were thrown, their force value you increase at a crazy rate and it would not switch back to normal when the ball is switched or returned to the player. I fixed this problem by making the balls kinematic when the player is holding them.
-        </p><br>
-      </div>
-      <!-- UNCOMMENT HERE TO ADD MORE PROJECTS TO PORTFOLIO!
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="Api%20Project.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
+                <p class="w3-center w3-large">This was my DATA Visualisation Project. I created this using an API that tracks crypo currency values and created animated bars using P5js.The values are color coded green being high value and red being low value. View the actual project <a href="https://boyerk.github.io/API/">here.</a></p><br>
+            </div>
+            <div class="w3-col m3">
+                <img src="twitterbotpic.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
+                <p class="w3-center w3-large">This was my Twitter Bot Project. This twitter bot runs on an Amazon EC2 server. The bot will send a happy message every hour saying something excitingly happy, however, there is a 2% chance he will say something about how he hates life. View the bot's twitter account <a href="https://twitter.com/GoodestHappyBot">here.</a></p><br>
+            </div>
+
+            <div class="w3-col m3">
+                <img src="alexaskillpic.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
+                <p class="w3-center w3-large">The next project here is my Amazon Alexa Skill. This Alexa skill was made with Amazon Web Services. The skill I created is a quick poker guide. Alexa will give you quick detailed explenation of what cards will win in a game of poker. I also took this project further for my final and published it with Amazon so that it can be used off of any Alexa device.</p><br>
+            </div>
+
+            <div class="w3-col m3">
+                <img src="vimcheetsheet.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
+                <p class="w3-center w3-large"> For this project we were asked to view some sort of language or framework and create a basic descriptive, cheat sheet that we could all share with each other if we ever needed to use that language/framework in the future. The framwork I chose was VIM. VIM is a text editor and plug in that uses shortcuts and modes to allow you to code in a very fast and efficient way without even using a mouse. You can take a look at the cheat sheet <a href="https://github.com/boyerk/Cheatsheet/blob/master/Vim%20Cheat%20Sheet.md">here.</a></p><br>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="publishedAlexa.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
+                <p class="w3-center w3-large">So for my final project my Alexa skill that I created is going to be published. Amazon is currently reviewing the skill. My skill was denied the first time because Amazon is very unclear when it comes to publishing the skill and there are many rules that must be followed for the skill that are not stated, such at "The skill may not contain certain words." This was something that was not stated in the beginning but only after my first submission was rejected. I have resubmitted the skill and soon hope that Amazon will publish this so that it could be used on every Alexa.</p><br>
+            </div>
+
+            <div class="w3-col m3">
+                <img src="unityscreen.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity">
+                <p class="w3-center w3-large"> This project was my final project for my virtual reality class. I had made a simple basketball Virtual Reality game in Unity. For my final specifically I added three different types of balls that you could shoot as well as 4 different hoops. Each hoop will trigger a unique sound and moves at a unique rate. The different types of basketballs also have unique charactersitcs, such as the red ball is very heavy and the light orange one is very light. Some of the difficulties I ran into during making this game was creating an effecient switching mechanic for the balls. There was also a problem with them when they were thrown, their force value you increase at a crazy rate and it would not switch back to normal when the ball is switched or returned to the player. I fixed this problem by making the balls kinematic when the player is holding them.
+                </p><br>
+            </div>
+            <!-- UNCOMMENT HERE TO ADD MORE PROJECTS TO PORTFOLIO!
       <div class="w3-col m3">
         <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="More Projects Coming Soon...">
       </div>
@@ -140,44 +140,44 @@
         <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="More Projects Coming Soon...">
       </div>
       -->
-      <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+            <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+        </div>
     </div>
-  </div>
 
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption" class="w3-opacity w3-large"></p>
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
     </div>
-  </div>
 
-  <!-- Third Parallax Image with Portfolio Text -->
-  <div class="bgimg-3 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle">
-      <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
+        </div>
     </div>
-  </div>
 
-  <!-- Container (Contact Section) -->
-  <!--<div class="w3-content w3-container w3-padding-64" id="contact">
+    <!-- Container (Contact Section) -->
+    <!--<div class="w3-content w3-container w3-padding-64" id="contact">
     <h3 class="w3-center">WHERE I WORK</h3>
     <p class="w3-center"><em>I'd love your feedback!</em></p>
 
     <div class="w3-row w3-padding-32 w3-section">
       <div class="w3-col m4 w3-container">
         <!-- Add Google Maps -->
-  <!-- <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    <!-- <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
       </div> -->
-  <div class="w3-col m8 w3-panel" id="contact">
-    <div class="w3-large w3-margin-bottom">
-      <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Burbank, CA<br>
-      <!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br> -->
-      <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kaboyer@yahoo.com<br>
-      <i class="fa fa-github fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Github: <a href="https://github.com/boyerk" class="w3-hover-text-black w3-large w3-margin-right">My Github</a>
-    </div>
-    <!-- <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+    <div class="w3-col m8 w3-panel" id="contact">
+        <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Burbank, CA<br>
+            <!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br> -->
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kaboyer@yahoo.com<br>
+            <i class="fa fa-github fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Github: <a href="https://github.com/boyerk" class="w3-hover-text-black w3-large w3-margin-right">My Github</a>
+        </div>
+        <!-- <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
         <form action="/action_page.php" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
@@ -196,21 +196,21 @@
     </div>
   </div>
 -->
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-      <div class="w3-xxlarge w3-section">
-      </div>
-      <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
-    </footer>
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xxlarge w3-section">
+            </div>
+            <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+        </footer>
 
-    <!-- Add Google Maps -->
-    <script src="main.js">
+        <!-- Add Google Maps -->
+        <script src="main.js">
 
 
-    </script>
-    <script src="https://www.google.com/maps/place/Burbank,+CA/@34.1819905,-118.3954233,12z/data=!3m1!4b1!4m5!3m4!1s0x80c295152818c595:0x307791af901f8ad4!8m2!3d34.1808392!4d-118.3089661"></script>
-    <!--
+        </script>
+        <script src="https://www.google.com/maps/place/Burbank,+CA/@34.1819905,-118.3954233,12z/data=!3m1!4b1!4m5!3m4!1s0x80c295152818c595:0x307791af901f8ad4!8m2!3d34.1808392!4d-118.3089661"></script>
+        <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
